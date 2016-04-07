@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Information">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvLastPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textWithOverlay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menstrual Period"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerColor" />
+
+            <TextView
+                android:id="@+id/tvLastPeriod"
+                style="@style/textWithOverlay2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:text="First day of your Last Mothly Period"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvCycleLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cvLastPeriod"
+        android:layout_margin="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textCL"
+                style="@style/textWithOverlay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cycle Length"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imgCycleLength"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toEndOf="@+id/textCL"
+                android:layout_toRightOf="@+id/textCL"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_menu_help" />
+
+            <View
+                android:id="@+id/dividerCL"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textCL"
+                android:background="@color/dividerColor" />
+
+            <TextView
+                android:id="@+id/tvCycleLength"
+                style="@style/textWithOverlay2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_below="@+id/dividerCL"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:text="Average cycle length of your period"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvMensLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cvCycleLength"
+        android:layout_margin="16dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/textWithOverlay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menstrual Length"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dividerColor" />
+
+            <TextView
+                android:id="@+id/tvMensLength"
+                style="@style/textWithOverlay2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:text="Average length of your monthly period"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cvMensLength"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/primary_selector"
+        android:text="Continue"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</RelativeLayout>

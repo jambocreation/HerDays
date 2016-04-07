@@ -1,0 +1,514 @@
+[
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/fragment_calendar.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_notes_diary.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_notes_diary.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/calendar.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/calendar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notes_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/notes_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/fragment_calendar.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/mf_calendarview.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/mf_calendarview.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_due_date.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_due_date.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/dialog_addnotes.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/dialog_addnotes.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_calendar_test.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_calendar_test.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notes_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/notes_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_information.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_information.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_notes_diary.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_notes_diary.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_pregnancy_calculator.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_pregnancy_calculator.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/fragment_info.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/fragment_info.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_pregnancy_calculator.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_pregnancy_calculator.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/calendar_item.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/calendar_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/calendar.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/calendar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_information.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_information.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/calendar_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/calendar_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/mf_calendarview.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/mf_calendarview.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/fragment_info.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/fragment_info.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/dialog_addnotes.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/dialog_addnotes.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_calendar_test.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_calendar_test.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/activity_due_date.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/activity_due_date.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
+    }
+]

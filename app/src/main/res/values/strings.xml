@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Her Days</string>
+    <array name="values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">
+        Herdays is an inclusive app.\n\n
+        It provides all you need a tool to record, monitor your own menstrual cycle,
+        especially useful for women wishing to conceive.\n\n
+
+        Herdays is the app for every lady giving you the freedom to worry-free and about your period coming at sudden times.
+        It helps keep track total menstrual cycle.\n\n
+        It\'s the ultimate app to keep every lady happy!\n\n
+
+        Herdays provide the following:
+        A comprehensive calendar and personal health log;\n
+        Record your monthly period and calculate ovulation date and check for a pregnancy chance;\n
+        Herdays:Diary will record your past period.\n\n
+
+        Other functions include setting for cycle length:\n
+        1 day reminder before coming period and ovulation days, countdown of the pregnancy and due date.
+    </string>
+    <string name="developer">Developed by:\nMaryrose Rabago\nJanice Piguerra</string>
+</resources>
