@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/drawable/button_normal.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/drawable/button_normal.xml"
+    },
+    {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_light.xml"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/drawable/home_buttons_selector.xml",
         "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/drawable/home_buttons_selector.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/drawable/site_thumbnail.png",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/drawable/site_thumbnail.png"
     },
     {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",

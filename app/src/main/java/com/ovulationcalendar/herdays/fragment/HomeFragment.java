@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -15,10 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ovulationcalendar.herdays.R;
 import com.ovulationcalendar.herdays.activity.NotesDiaryActivity;
+import com.ovulationcalendar.herdays.activity.SplashActivity;
+import com.ovulationcalendar.herdays.data.DatabaseHelper;
 import com.ovulationcalendar.herdays.data.EZSharedPreferences;
 import com.ovulationcalendar.herdays.notification.NotificationReciever;
 import com.ovulationcalendar.herdays.utils.HerDaysUtils;
@@ -46,6 +50,9 @@ public class HomeFragment extends Fragment {
     private Button btnPregCalc;
     private Button btnDueDateCalc;
     private Button btnNotesDiary;
+    private Button btnReset;
+
+    ImageView id2;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -86,6 +93,12 @@ public class HomeFragment extends Fragment {
 
         btnDueDateCalc = (Button) v.findViewById(R.id.btnDueDateCalc);
         btnNotesDiary = (Button) v.findViewById(R.id.btnNotesDiary);
+
+
+        id2 = (ImageView) v.findViewById(R.id.id2);
+
+        btnReset = (Button) v.findViewById(R.id.btnReset);
+
     }
 
     private void createListeners() {
@@ -94,6 +107,11 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
 //                startActivity(new Intent(getActivity(), PregnancyCalculator.class));
                 onPregClick();
+
+//                String address = "http://firstresponse.com/en/Online-Tools/How-Soon-Can-I-take-A-Pregnancy-Test";
+//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(address));
+//                startActivity(intent);
+
             }
         });
 
@@ -109,8 +127,56 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), NotesDiaryActivity.class));
+
             }
         });
+
+//        id1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String address = "http://www.womenshealth.gov/mental-health/illnesses/index.html";
+//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(address));
+//                startActivity(intent);
+//            }
+//        });
+
+        id2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String address = "http://www.womenshealth.gov/mental-health/pregnancy-conceive/index.html";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(address));
+                startActivity(intent);
+            }
+        });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle("Reset the App?");
+                builder.setMessage("Are you sure you want to erase all the data?");
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        resetApp();
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                }).show();
+            }
+        });
+    }
+
+    public void resetApp() {
+
+        getActivity().deleteDatabase(DatabaseHelper.DB);
+        EZSharedPreferences.dropSharedPref(getActivity());
+        startActivity(new Intent(getActivity(), SplashActivity.class));
+        getActivity().finish();
     }
 
 
@@ -122,7 +188,70 @@ public class HomeFragment extends Fragment {
 
         LogUtils.d(TAG, "Last Period: " + lastPeriod);
 
-        computeNextPeriod(lastPeriod, cycleLength);
+        computeNextPeriod1(lastPeriod, cycleLength);
+    }
+
+    private void computeNextPeriod1(String lastPeriod, int cycle) {
+
+        setAlarm(lastPeriod, cycle);
+        Calendar nextPeriod = stringToCalendar(lastPeriod);
+        nextPeriod.add(Calendar.DAY_OF_MONTH, cycle);
+
+
+        Calendar currentDate = Calendar.getInstance();
+        currentDate.set(Calendar.HOUR_OF_DAY, 0);
+        currentDate.set(Calendar.MINUTE, 0);
+        currentDate.set(Calendar.SECOND, 0);
+        currentDate.set(Calendar.MILLISECOND, 0);
+
+        long lNextPeriod = nextPeriod.getTimeInMillis();
+        long lCurrentDate = currentDate.getTimeInMillis();
+
+        long diff = lNextPeriod - lCurrentDate;
+        int days = differenceInDays(diff);
+
+
+        while (days < 0) {
+
+            nextPeriod.add(Calendar.DAY_OF_MONTH, cycle);
+            Log.d(TAG, "new period date:" + nextPeriod.getTime().toString());
+            lNextPeriod = nextPeriod.getTimeInMillis();
+            diff = lNextPeriod - lCurrentDate;
+
+            days = differenceInDays(diff);
+
+            Log.d(TAG, "new Days to next period: " + days);
+
+        }
+
+        String stringPeriod = "";
+        switch (days) {
+            case 0:
+                stringPeriod = "First day of your Period";
+                break;
+            case 27:
+                stringPeriod = "Second day of your Period";
+                break;
+            case 26:
+                stringPeriod = "Third day of your Period";
+                break;
+            case 25:
+                stringPeriod = "Fourth day of your period";
+                break;
+            default:
+                stringPeriod = days + " days until next period";
+                break;
+
+
+        }
+
+
+        tvNextPeriodDate.setText(calendarFormat(nextPeriod));
+        tvDaysUntilNextPeriod.setText(stringPeriod);
+        computeOPS(lastPeriod, cycle, lCurrentDate);
+//        computeOvulationPeriod(lastPeriod, cycle, lCurrentDate);
+//
+
     }
 
     private void computeNextPeriod(String lastPeriod, int cycle) {
@@ -159,11 +288,11 @@ public class HomeFragment extends Fragment {
             tvDaysUntilNextPeriod.setText(days + " days until next period");
             tvNextPeriodDate.setText(calendarFormat(calNextPeriod));
 
-            computeOvulationPeriod(lastPeriod, cycle, lCurrentDate);
+            computeOPS(lastPeriod, cycle, lCurrentDate);
+//            computeOvulationPeriod(lastPeriod, cycle, lCurrentDate);
+        } else {
+            computeNextPeriod(calendarToString(calNextPeriod), cycle);
         }
-//        else {
-//            computeNextPeriod(calendarToString(calNextPeriod), cycle);
-//        }
     }
 
     private void computeOvulationPeriod(String lastPeriod, int cycle, long lCurrentDate) {
@@ -203,11 +332,64 @@ public class HomeFragment extends Fragment {
         tvDaysBeforeOvulation.setText(days + " days before ovulation");
         tvOvulationDate.setText(ovulationStart + " to " + ovulationEnd);
         println("next ovulation: " + days);
-        if (days <= 0 && days >= -8) {
+        if (days <= 0 && days >= -10) {
             tvDaysBeforeOvulation.setText("You are Fertile today");
         } else if (days < -8) {
             tvDaysBeforeOvulation.setText((days + cycle + range) + " days before next ovulation");
         }
+
+    }
+
+    private void computeOPS(String lastPeriod, int cycle, long lCurrentDate) {
+
+        Calendar calLastPeriod = stringToCalendar(lastPeriod);
+
+        String safePeriod1Start, safePeriod1End;
+        String safePeriod2Start, safePeriod2End;
+
+        String t = "unTag";
+        int range = 10;
+        // SAFE PERIOD 1;
+        safePeriod1Start = lastPeriod;
+        Calendar calendar = calLastPeriod;
+        Log.d(t, lastPeriod);
+
+        calendar.add(Calendar.DAY_OF_MONTH, 7);
+        safePeriod1End = calendarFormat(calendar);
+        tvSafeDaysRange.setText(safePeriod1Start + " to " + safePeriod1End);
+        // SAFE PERIOD 1;
+
+        calendar.add(Calendar.DAY_OF_MONTH, 1);
+        String ovulationStart = calendarFormat(calendar);
+        calendar.add(Calendar.DAY_OF_MONTH, 3);
+        Log.d("unTag", "Ovulated: " + calendarToString(calendar));
+        long lOvulationDate = calendar.getTimeInMillis();
+        long diff = lOvulationDate - lCurrentDate;
+        int days = differenceInDays(diff);
+
+        calendar.add(Calendar.DAY_OF_MONTH, 9);
+        String ovulationEnd = calendarFormat(calendar);
+
+        calendar.add(Calendar.DAY_OF_MONTH, 1);
+        safePeriod2Start = calendarFormat(calendar);
+
+        calendar = stringToCalendar(lastPeriod);
+        calendar.add(Calendar.DAY_OF_MONTH, cycle - 1);
+        safePeriod2End = calendarFormat(calendar);
+
+        tvSafeDaysRange2.setText(safePeriod2Start + " to " + safePeriod2End);
+
+        tvDaysBeforeOvulation.setText(days + " days before ovulation");
+        tvOvulationDate.setText(ovulationStart + " to " + ovulationEnd);
+        println("next ovulation: " + days);
+        Log.d(t, "Days: " + days);
+        if (days <= 0 && days > -10) {
+            tvDaysBeforeOvulation.setText("You are Fertile today");
+        } else if (days <= -10) {
+
+            tvDaysBeforeOvulation.setText((days + cycle) + " days before next ovulation");
+        }
+
 
     }
 
@@ -264,7 +446,7 @@ public class HomeFragment extends Fragment {
         }, year, month, day);
 
 //        dpd.getDatePicker().setMinDate(minDate.getTime().getTime());
-        dpd.setTitle("First day of your last month period");
+        dpd.setTitle("Enter the day that you conceive");
         dpd.show();
 
 

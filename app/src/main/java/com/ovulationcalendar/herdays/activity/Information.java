@@ -45,6 +45,8 @@ public class Information extends BaseActivity {
     private String sMensLength;
     private Calendar calendarAlarm;
 
+    int flash = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -99,7 +101,8 @@ public class Information extends BaseActivity {
         tvCycleLength.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onCycleLengthListener();
+//                onCycleLengthListener();
+                onCycleSwitch();
             }
         });
 
@@ -153,6 +156,7 @@ public class Information extends BaseActivity {
 
                 if (cvCycleLength.getVisibility() == INVISIBLE) {
                     anim.slideDown(cvCycleLength);
+//                    displayHow();
                     cvCycleLength.setVisibility(VISIBLE);
                 }
 
@@ -160,9 +164,34 @@ public class Information extends BaseActivity {
         }, year, month, day);
 
         dpd.getDatePicker().setMaxDate(new Date().getTime() - 1);
-//        dpd.getDatePicker().setMinDate(minDate.getTime().getTime());
+        dpd.getDatePicker().setMinDate(minDate.getTime().getTime());
         dpd.show();
 
+    }
+
+    private void onCycleSwitch() {
+        if (flash == 0) {
+            displayHow();
+        } else
+        onCycleLengthListener();
+    }
+
+    private void displayHow() {
+
+        String message = "Start with the frist day of one period and count right up to the day before the first day of your next period." +
+                "Count the first day of bleeding or spotting as day one. The average cycle length is 28 days, but can range anywhere from 20 to 45 days.";
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(Information.this);
+        builder.setMessage(message);
+        builder.setCancelable(false);
+        builder.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+                onCycleLengthListener();
+            }
+        });
+        builder.show();
     }
 
     private void onCycleLengthListener() {

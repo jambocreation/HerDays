@@ -27,7 +27,8 @@
         android:layout_alignParentRight="true"
         android:layout_margin="16dp"
         android:clickable="true"
-        android:text="Add Notes" />
+        android:src="@mipmap/ic_add_white_18dp"
+        android:text="+" />
 
 
 </RelativeLayout>

@@ -30,6 +30,8 @@ public class CalendarFragment extends Fragment {
         // Required empty public constructor
     }
 
+    String TAG = "CalendarFragment";
+
     private final int MENS_LENGTH = 4;
     private final int FERTILE_START_RANGE = 18;
     private final int FERTILE_LENGTH = 8;
@@ -60,7 +62,7 @@ public class CalendarFragment extends Fragment {
         String lastPeriod = EZSharedPreferences.getLastMonth(getActivity());
         int cycle = Integer.valueOf(EZSharedPreferences.getCycle(getActivity()));
 
-        displayInCalendar(lastPeriod, cycle, 12);
+        displayInCalendar2(lastPeriod, cycle, 12);
     }
 
 
@@ -110,6 +112,50 @@ public class CalendarFragment extends Fragment {
         calendarView.setEvent(events);
     }
 
+    private void displayInCalendar2(String lastPeriod, int cycle, int count) {
+        Calendar calNextPeriod = stringToCalendar(lastPeriod);
+
+        // FOR MENSTRUAL PERIOD
+        for (int ctr = 0; ctr < MENS_LENGTH; ctr++) {
+            String strMens = forCalendarEvent(calNextPeriod);
+            events.add(new EventItem(strMens, EVENT_MENS));
+            calNextPeriod.add(Calendar.DAY_OF_MONTH, 1);
+        }
+
+        calNextPeriod.add(Calendar.DAY_OF_MONTH, 4);
+//        forCalendarEvent(calNextPeriod);
+        for (int ctr = 0; ctr < 10; ctr++) {
+            String strFertile = forCalendarEvent(calNextPeriod);
+            if (ctr == 3) {
+                events.add(new EventItem(strFertile, EVENT_OVULATION));
+            } else {
+                events.add(new EventItem(strFertile, EVENT_FERTILE));
+            }
+            calNextPeriod.add(Calendar.DAY_OF_MONTH, 1);
+        }
+        //reset Calendar
+        calNextPeriod = stringToCalendar(lastPeriod);
+//        forCalendarEvent(calNextPeriod);
+        Log.d(TAG, "My current Value: " + lastPeriod);
+        calNextPeriod.add(Calendar.DAY_OF_MONTH, cycle);
+        String lastP = calendarToString(calNextPeriod);
+        Log.d(TAG, "Next Period: " + lastP);
+
+//        if(count > 0){
+////            count--;
+////            displayInCalendar2();
+//        }
+        if (count >= 0) {
+            count--;
+            lastPeriod = calendarToString(calNextPeriod);
+            displayInCalendar2(lastPeriod, cycle, count);
+        }
+
+        calendarView.setEvent(events);
+
+
+    }
+
     private Calendar stringToCalendar(String date) {
         Calendar c = Calendar.getInstance();
 
@@ -136,7 +182,6 @@ public class CalendarFragment extends Fragment {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
         calEvent = sdf.format(calendar.getTime());
-        log("String value: " + calEvent);
         return calEvent;
     }
 
@@ -145,7 +190,7 @@ public class CalendarFragment extends Fragment {
     }
 
 
-    private void setAlarm(){
+    private void setAlarm() {
 
     }
 }

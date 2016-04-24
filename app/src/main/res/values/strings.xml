@@ -24,7 +24,12 @@
         Herdays:Diary will record your past period.\n\n
 
         Other functions include setting for cycle length:\n
-        1 day reminder before coming period and ovulation days, countdown of the pregnancy and due date.
+        1 day reminder before coming period and ovulation days, countdown of the pregnancy and due date.\n\n\n\n
+
     </string>
     <string name="developer">Developed by:\nMaryrose Rabago\nJanice Piguerra</string>
+    <string name="title_activity_new_calendar_test">NewCalendarTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>

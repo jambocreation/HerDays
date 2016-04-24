@@ -104,12 +104,12 @@
         "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
@@ -124,12 +124,12 @@
         "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/mf_calendarview.xml",
-        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/mf_calendarview.xml"
-    },
-    {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_due_date.xml",
         "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_due_date.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/to copy/HerDays/app/build/intermediates/res/merged/debug/layout/mf_calendarview.xml",
+        "source": "/Users/mykelneds/Desktop/to copy/HerDays/app/src/main/res/layout/mf_calendarview.xml"
     },
     {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -350,6 +350,10 @@
     {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/activity_new_calendar_test.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_new_calendar_test.xml"
     },
     {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",

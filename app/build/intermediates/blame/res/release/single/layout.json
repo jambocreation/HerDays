@@ -164,6 +164,10 @@
         "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/layout/design_navigation_item_separator.xml"
     },
     {
+        "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/layout/activity_new_calendar_test.xml",
+        "source": "/Users/mykelneds/Desktop/HerDays/app/src/main/res/layout/activity_new_calendar_test.xml"
+    },
+    {
         "merged": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
         "source": "/Users/mykelneds/Desktop/HerDays/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
     },

@@ -10,9 +10,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static DatabaseHelper mInstance = null;
+    public static String DB = "HerDays_db";
 
     private DatabaseHelper(Context mContext) {
-        super(mContext, "pesosense_db", null, 4);
+        super(mContext, DB, null, 4);
     }
 
 

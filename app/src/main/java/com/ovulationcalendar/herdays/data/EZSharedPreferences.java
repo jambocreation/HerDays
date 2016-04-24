@@ -31,6 +31,12 @@ public class EZSharedPreferences {
         return ctx.getSharedPreferences(USER_PREFERENCES, Context.MODE_PRIVATE);
     }
 
+    public static void dropSharedPref(Context ctx) {
+        SharedPreferences.Editor editor = getSharedPref(ctx).edit();
+        editor.clear();
+        editor.commit();
+    }
+
     //====================================
     // G E T T E R
     //====================================
